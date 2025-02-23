@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -Wall -Iinclude -fPIC
 SRC = src/gpio.c src/HAL.c
 OBJ = $(SRC:.c=.o)
-LIBNAME = libgpio
+LIBNAME = gpio
 
 all: static shared
 
