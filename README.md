@@ -9,4 +9,6 @@ make
 ## Complile with the Library
 ```sh
 gcc -Iinclude examples/main.c -L. -lgpio -o example
+export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
+./example
 ```
