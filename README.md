@@ -8,5 +8,5 @@ make
 ```
 ## Complile with the Library
 ```sh
-gcc examples/main.c -L. -lgpio -o example
+gcc -Iinclude examples/main.c -L. -lgpio -o example
 ```
