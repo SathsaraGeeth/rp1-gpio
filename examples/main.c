@@ -1,7 +1,7 @@
 /* Blinky! - blink an led conneted to gpio 12 10 times. */
 
 #include "HAL.h"
-#inclfde <unistd.h>
+#include <unistd.h>
 
 
 int main() {
